@@ -12,7 +12,7 @@ class App extends React.Component{
         return(
             <div className="demo-big-content">
             <Layout>
-                <Header className="header-color" title="Kolawole Portfolio" scroll>
+                <Header className="header-color" title={<Link style={{textDecoration: 'none', color:'white'}} to='/'>kolawole Portfolio</Link>} scroll>
                     <Navigation>
                     <Link to="/">Home Page</Link>
                         <Link to="/resume">Resume</Link>
@@ -22,7 +22,7 @@ class App extends React.Component{
                         
                     </Navigation>
                 </Header>
-                <Drawer title="Kolawole Portfolio"  >
+                <Drawer title={<Link style={{textDecoration: 'none', color:'black'}} to='/'>kolawole Portfolio</Link>}  >
                     <Navigation >
                     <Link to="/">Home Page</Link>
                     <Link to="/resume">Resume</Link>
