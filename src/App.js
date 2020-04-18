@@ -14,7 +14,7 @@ class App extends React.Component{
             <Layout>
                 <Header className="header-color" title={<Link style={{textDecoration: 'none', color:'white'}} to='/'>kolawole Portfolio</Link>} scroll>
                     <Navigation>
-                    <Link to="/">Home Page</Link>
+                   
                         <Link to="/resume">Resume</Link>
                         <Link to="/project">Project</Link>
                         <Link to="/aboutme">About Me</Link>
@@ -24,7 +24,7 @@ class App extends React.Component{
                 </Header>
                 <Drawer title={<Link style={{textDecoration: 'none', color:'black'}} to='/'>kolawole Portfolio</Link>}  >
                     <Navigation >
-                    <Link to="/">Home Page</Link>
+                   
                     <Link to="/resume">Resume</Link>
                     <Link to="/project">Project</Link>
                         <Link to="/aboutme">About Me</Link>

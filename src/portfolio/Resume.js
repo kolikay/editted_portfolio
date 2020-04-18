@@ -30,6 +30,7 @@ class Resume extends Component{
                                 <h5>Website</h5>
                                 <p>www.kolikay.com</p>
                                 <hr style={{borderTop: '3px solid red', width: '70%' }}/>
+
                         </Cell>
                         <Cell col={8} className='resume-right-col'>
                             <h2>Education</h2>
@@ -47,7 +48,7 @@ class Resume extends Component{
                             startYear='January 2019'
                             endYear='July 2019'
                             jobName='HTML/CSS | Bootstrap'
-                            jobDesc='Linux Academy'
+                            jobDesc='w3 school, free code camp'
                             />
 
                             <Experience 
@@ -63,7 +64,19 @@ class Resume extends Component{
                             jobName='Django Web Framework'
                             jobDesc='Udemy'
                             />
-                            <hr style={{borderTop: '3px solid red', width: '70%' }}/>
+                            <Experience 
+                            startYear='Febuary 2020'
+                            endYear='Till date'
+                            jobName='Javascript/React'
+                            jobDesc='Udemy'
+                            />
+                            <Experience 
+                            startYear='January 2020'
+                            endYear='March 2020'
+                            jobName='Amazon Web Services'
+                            jobDesc='Linux Jobber'
+                            />
+                           <hr style={{borderTop: '3px solid red', width: '70%' }}/>
                             <h2>Skills</h2>
                             <Skills 
                             skill = 'javascript'
@@ -81,6 +94,25 @@ class Resume extends Component{
                             skill = 'HTML/CSS'
                             progress = {80}
                             />
+                            <hr style={{borderTop: '3px solid red', width: '70%' }}/>
+
+                            <div className='row'>
+                            <h2 >Working Experience</h2>
+                                <div className='col-md-6'>
+                                
+                            
+                                <h5>Young Tex Nigeria</h5>
+                                <p>Industrial Attachment</p>
+                                <p>September 2019 - November 2019</p>
+                                </div>
+                                <div className='col-md-6'>
+                                <h5>Linux Jobber</h5>
+                                <p>Internship</p>
+                                <p>January 2020 - March 2020</p>
+                                </div>
+                           
+                            </div>
+                           
                              
 
 
