@@ -19,10 +19,10 @@ class Resume extends Component{
                                 <h2 style={{paddingTop: '2em'}}>Kolawole Fabusuyi</h2>
                                 <h4 style={{color:'grey'}}>Web Developer</h4>
                                 <hr style={{borderTop: '3px solid #833fb2', width: '70%' }}/>
-                                <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book</p>
+                                <p>I am a full stack web developer using React JS, HTML/CSS Bootstrap as my front end, and python/Django for the back end. I use AWS to host my projects </p>
                                 <hr style={{borderTop: '3px solid #833fb2', width: '70%' }}/>
                                 <h5>Address</h5>
-                                <p>1, fabusuyi street ketu lagos</p>
+                                <p>19, Usman Balogun street, Adenson, ile-epo busstop, igando</p>
                                 <h5>Phone</h5>
                                 <p>08062842978</p>
                                 <h5>Email</h5>
@@ -35,34 +35,33 @@ class Resume extends Component{
                             <h2>Education</h2>
 
                             <Education 
-                            startYear='2000'
-                            endYear='2005'
-                            schoolName='University of Abuja'
-                            schoolDesc='Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Ciceros De Finibus Bonorum et Malorum for use in a type specimen book'
+                            startYear='2011'
+                            endYear='2016'
+                            schoolName='University of Abuja, Abuja Nigeria'
+                            schoolDesc='Bsc Economics'
                             />
-
-                            <Education 
-                            startYear='2006'
-                            endYear='2010'
-                            schoolName='Code camp'
-                            schoolDesc='Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Ciceros De Finibus Bonorum et Malorum for use in a type specimen book'
-                            />
-
                             <hr style={{borderTop: '3px solid red', width: '70%' }}/>
-                            <h2>Experience</h2>
+                            <h2>Trainning</h2>
 
                             <Experience 
-                            startYear='2006'
-                            endYear='2010'
-                            jobName='Code camp'
-                            jobDesc='Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Ciceros De Finibus Bonorum et Malorum for use in a type specimen book'
+                            startYear='January 2019'
+                            endYear='July 2019'
+                            jobName='HTML/CSS | Bootstrap'
+                            jobDesc='Linux Academy'
                             />
 
                             <Experience 
-                            startYear='2010'
-                            endYear='2018'
-                            jobName='Code camp1'
-                            jobDesc='Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Ciceros De Finibus Bonorum et Malorum for use in a type specimen book'
+                            startYear='July 2019'
+                            endYear='September 2019'
+                            jobName='Python Programming Language'
+                            jobDesc='Linux Academy'
+                            />
+
+                            <Experience 
+                            startYear='September 2019'
+                            endYear='Till date'
+                            jobName='Django Web Framework'
+                            jobDesc='Udemy'
                             />
                             <hr style={{borderTop: '3px solid red', width: '70%' }}/>
                             <h2>Skills</h2>
