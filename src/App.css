@@ -66,6 +66,7 @@
 
 .projects-grid{
     display: flex;
+    text-align: center;
 }
 
 /* contact page*/
@@ -113,5 +114,15 @@
     background: #27221F;
     color: white;
     padding: 2em;
+    
+}
+.About{
+    
+   font-size: large;
+    padding-right: 3rem;
+    padding-left: 2rem;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    text-align: center; 
     
 }
