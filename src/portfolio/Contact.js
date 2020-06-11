@@ -1,61 +1,59 @@
 import React, { Component } from "react"
-import {Grid, Cell, List, ListItem, ListItemContent} from 'react-mdl'
+
 
 class Contact extends Component{
     render(){
         return(
-                <div className='contact-body'>
-                    <Grid className='contact-grid'>
-                         <Cell col={6}>
-                             <h2>Kolawole Fabusuyi</h2>
-                             <img 
-                             src="https://avatars2.githubusercontent.com/u/56051616?s=460&u=3f9305f057d67f7c505cffacb8e69786da78aab5&v=4"
-                             alt='avatar'
-                             style={{height: '250px'}}
-                             />
-                            <p>
-                            I'm new to Git and using it for the very first time. I would appreciate it if someone could help me out. I tried finding the answer at forums, but there are tons of commands that are coming out and not sure which one to use
-                            </p>
-                         </Cell>
-                         <Cell col={6}>
-                             <h2>Contact Me</h2>
-                             <hr/>
-                             <div className='contact-list'>
-                             <List>
-                            <ListItem>
-                                <ListItemContent style={{fontSize: '30px', fontFamily:"Anton"}}>
-                                <i className='fa fa-phone-square' aria-hidden='true' />
-                                (234)806-284-2978
-                                </ListItemContent>
-                            </ListItem>
+            <div class="container">
+            <div class="contact-parent">
+                <div class="contact-child child1">
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i> Address <br />
+                        <span> 19, Usman balogun street,
+                            <br />
+                            ile epo busstop, Lagos Nigeria
+                        </span>
+                    </p>
 
-                            <ListItem>
-                                <ListItemContent style={{fontSize: '30px', fontFamily:"Anton"}}>
-                                <i className='fa fa-envelope' aria-hidden='true' />
-                                kolikay1989@gmail.com
-                                </ListItemContent>
-                            </ListItem>
+                    <p>
+                        <i class="fas fa-phone-alt"></i> Let's Talk <br />
+                        <span>08062842978</span>
+                    </p>
 
-                            <ListItem>
-                                <ListItemContent style={{fontSize: '30px', fontFamily:"Anton"}}>
-                                <i className='fa fa-skype' aria-hidden='true' />
-                                kolikay
-                                </ListItemContent>
-                            </ListItem>
-
-                            <ListItem>
-                                <ListItemContent style={{fontSize: '30px', fontFamily:"Anton"}}>
-                                <i className="fa fa-address-book-o" aria-hidden='true' />
-                                19, usman balogun street, ile-epo busstop, igando
-                                </ListItemContent>
-                            </ListItem>
-                           
-                            </List>
-
-                             </div> 
-                         </Cell>
-                    </Grid>
+                    <p>
+                        <i class=" far fa-envelope"></i> Email <br />
+                        <span>kolawolefabusuyi@gmail.com</span>
+                    </p>
                 </div>
+
+                <div class="contact-child child2">
+                    <div class="inside-contact">
+                        <h2>Contact Us</h2>
+                        <h3>
+                           <span id="confirm"></span>
+                        </h3>
+
+                        <p>Name *</p>
+                        <input id="txt_name" type="text" Required="required"/>
+
+                        <p>Email *</p>
+                        <input id="txt_email" type="text" Required="required"/>
+
+                        <p>Phone *</p>
+                        <input id="txt_phone" type="text" Required="required" />
+
+                        <p>Subject *</p>
+                        <input id="txt_subject" type="text" Required="required" />
+
+                        <p>Message *</p>
+                        <textarea id="txt_message" rows="4" cols="20" Required="required" ></textarea>
+                        
+                        <input type="submit" id="btn_send" value="SEND"  className="btn_send"/>
+                    </div>
+                </div>
+                </div>
+                </div>
+
             )
     }
        

@@ -25,6 +25,19 @@ class Project extends React.Component {
                         </CardMenu>
 
                     </Card>
+                    {/* React Project 2 */}
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', }}>
+                        <CardTitle style= 
+                        {{color:'#fff', height:'176px', background: 'url(https://i.imgur.com/0jQQ6SU.png) center / cover'}}>Public Website</CardTitle>
+                        <CardText>This website was created to help individuals or SMEs showcase thiers goods and services by just registring on the website and uploading thier goods and services</CardText>
+                        <CardActions border>
+                        < Button colored a href='https://github.com/kolikay/new_porfolio.git' target="_blank">GitHub</Button>
+                        </CardActions>
+                        <CardMenu style={{color: '#fff'}}>
+                        <IconButton name='share'/>
+                        </CardMenu>
+
+                    </Card>
                     </div> 
                 )
         }else if (this.state.activeTab === 1){

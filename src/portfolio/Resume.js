@@ -48,7 +48,7 @@ class Resume extends Component{
                             startYear='January 2019'
                             endYear='July 2019'
                             jobName='HTML/CSS | Bootstrap'
-                            jobDesc='w3 school, free code camp'
+                            jobDesc='W3 School, Free Code Camp'
                             />
 
                             <Experience 
@@ -60,9 +60,9 @@ class Resume extends Component{
 
                             <Experience 
                             startYear='September 2019'
-                            endYear='Till date'
+                            endYear='March 2020'
                             jobName='Django Web Framework'
-                            jobDesc='Udemy'
+                            jobDesc='Udemy/Linux Jobber'
                             />
                             <Experience 
                             startYear='Febuary 2020'
@@ -79,16 +79,16 @@ class Resume extends Component{
                            <hr style={{borderTop: '3px solid red', width: '70%' }}/>
                             <h2>Skills</h2>
                             <Skills 
-                            skill = 'javascript'
-                            progress = {100}
+                            skill = 'Javascript'
+                            progress = {50}
                             />
                             <Skills 
-                            skill = 'python'
-                            progress = {75}
+                            skill = 'Python'
+                            progress = {65}
                             />
                             <Skills 
-                            skill = 'django'
-                            progress = {75}
+                            skill = 'Django'
+                            progress = {65}
                             />
                             <Skills 
                             skill = 'HTML/CSS'
@@ -102,12 +102,12 @@ class Resume extends Component{
                                 
                             
                                 <h5>Young Tex Nigeria</h5>
-                                <p>Industrial Attachment</p>
+                                <p>Industrial Attachment(Python)</p>
                                 <p>September 2019 - November 2019</p>
                                 </div>
                                 <div className='col-md-6'>
                                 <h5>Linux Jobber</h5>
-                                <p>Internship</p>
+                                <p>Internship(Django)</p>
                                 <p>January 2020 - March 2020</p>
                                 </div>
                            
