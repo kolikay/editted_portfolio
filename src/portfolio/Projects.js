@@ -1,5 +1,5 @@
-import React, { Component } from "react"
-import {Link} from 'react-router-dom'
+import React from "react"
+
 import {Tab, Tabs, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText} from 'react-mdl'
 
 class Project extends React.Component {
