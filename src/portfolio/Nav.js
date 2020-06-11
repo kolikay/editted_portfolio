@@ -7,7 +7,7 @@ const Nav =() =>{
     return(
         <Fragment>
                 <nav className="navbar navbar-expand-lg mb-0 navbar-dark bg-dark">
-                <Link class="navbar-brand" to="/" style={{fontSize:'1.5em', color:'rgb(187, 182, 110)', fontFamily: 'Courier New Courier monospace'}}>Kolikay</Link>
+                <Link class="navbar-brand" to="/" style={{fontSize:'1.5em', color:'rgb(187, 182, 110)', fontFamily: 'Courier New Courier monospace'}}> Kolikay</Link>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
