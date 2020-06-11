@@ -8,7 +8,7 @@ class Contact extends Component{
             <div class="contact-parent">
                 <div class="contact-child child1">
                     <p>
-                        <i class="fas fa-map-marker-alt"></i> Address <br />
+                        <i class="fa fa-address-book-o"></i> Address <br />
                         <span> 19, Usman balogun street,
                             <br />
                             ile epo busstop, Lagos Nigeria
@@ -16,19 +16,19 @@ class Contact extends Component{
                     </p>
 
                     <p>
-                        <i class="fas fa-phone-alt"></i> Let's Talk <br />
+                        <i class="fa fa-phone-square"></i> Let's Talk <br />
                         <span>08062842978</span>
                     </p>
 
                     <p>
-                        <i class=" far fa-envelope"></i> Email <br />
+                        <i class=" fa fa-envelope"></i> Email <br />
                         <span>kolawolefabusuyi@gmail.com</span>
                     </p>
                 </div>
 
                 <div class="contact-child child2">
                     <div class="inside-contact">
-                        <h2>Contact Us</h2>
+                        <h2>Contact Me</h2>
                         <h3>
                            <span id="confirm"></span>
                         </h3>

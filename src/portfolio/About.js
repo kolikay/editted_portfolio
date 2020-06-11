@@ -35,11 +35,8 @@ class About extends Component {
                          
                         </p>
                     </div>
-                    <div className='col'>
-                        <img style={{height:'600px', width:'600px', paddingLeft:'50px', paddingBottom:'80px', paddingTop:'40px'}}
-                        src="https://i.imgur.com/McUrjwj.jpg"
-                        alt='icon'
-                        />
+                    <div className='col-sm-12 col-md-6 col-lg-6 profile-pic'>
+                       
 
                     </div>
                 </div>
