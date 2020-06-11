@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import HomepageDetail from "./HomePageDetails"
+
 import { Link } from 'react-router-dom'
 
 
@@ -21,7 +21,7 @@ class LandingPage extends Component {
                             </div>
                     
                     </div>
-                  <HomepageDetail />
+                  
                 </div>
                 
                
