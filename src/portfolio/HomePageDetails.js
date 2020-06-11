@@ -5,14 +5,14 @@ const HomepageDetail = () => {
         <div className='container-fluid'>
             <div className='row'>
                 <div className='col-sm-12 col-md-6'>
-                    <h4 style={{paddingTop:'50px', 
+                    <h2 style={{paddingTop:'50px', 
                     color:'rgb(226, 197, 29)',
-                    fontSize: '20px',
+                    fontSize: '30px',
                     lineHeight: '26px',
                     fontWeight: '900',
                     letterSpacing: '0px',
                     fontFamily: 'cursive',}}
-                    > What i do</h4>
+                    > What i do</h2>
 
                     <h2>Programming</h2>
                     <p>Computer programming is the process of designing and building 

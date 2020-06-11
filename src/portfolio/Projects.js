@@ -10,11 +10,12 @@ class Project extends React.Component {
 
     toggleCategories(){
         if(this.state.activeTab === 0){
-            return(  <div className="projects-grid">
+            return(  
+            <div className="projects-grid">
                     {/* React Project 1 */}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <Card shadow={5} style={{minWidth: '450', margin: 'auto', }}>
                         <CardTitle style= 
-                        {{color:'#fff', height:'176px', background: 'url(https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png) center / cover'}}>My Portfolio</CardTitle>
+                        {{color:'#fff', height:'176px', background: 'url(https://i.imgur.com/0jQQ6SU.png) center / cover'}}>My Portfolio</CardTitle>
                         <CardText>This project is a simple portfolio website, which showcases everything about me and ways to contact me</CardText>
                         <CardActions border>
                         < Button colored a href='https://github.com/kolikay/my_portfolio' target="_blank">GitHub</Button>
