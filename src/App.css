@@ -90,8 +90,8 @@
 
 
 .profile-pic{
-    height: 600px;
-    width: 600px;
+    height: 500px;
+    width: 400px;
     background-image: url(https://i.imgur.com/McUrjwj.jpg);
     background-position: center;
     transition: 3s;
@@ -113,10 +113,6 @@
     }
 }
 
-.profile-pic:hover{
-    opacity: 70%;
-    background-image: url(https://i.imgur.com/ctTb64W.jpg); 
-}
 
 
 

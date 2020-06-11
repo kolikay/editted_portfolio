@@ -21,19 +21,20 @@ class About extends Component {
                             </div>
                 </div>
                 <div className='row container' style={{paddingTop:'10%'}}>
-                    <div className='col'>
+                    <div className='ccol-sm-12 col-md-6 col-lg-6'>
                         <p style={{ color:'rgb(226, 197, 29)',fontFamily: 'cursive', fontWeight:'bold', fontSize:'20px'}}>Few Words</p>
-                        <h3 style={{fontSize:'40px', fontWeight:'bolder', fontFamily:'cursive'}}>About Me</h3>
-                        <p style={{color:'grey'}}>
-                            The standard Lorem Ipsum passage, used since the 1500s
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        <h2 style={{fontSize:'40px', fontWeight:'bolder', fontFamily:'cursive'}}>About Me</h2>
+                        <h5 style={{fontSize:'20px',  fontFamily:'cursive'}} >
+                        Hi! I am Fabusuyi Kolawole, a web developer focused on crafting great web experiences. Designing and Coding have been 
+                        my passion since the days I started working with computers but I found myself into web development since 2018. I enjoy 
+                        creating beautifully designed, intuitive and functional websites. </h5>
 
-                            Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
-                           "Sed ut perspiciatis unde omnis iste natus error sit voluptatem The standard Lorem Ipsum passage, used since the 1500s
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        <h5 style={{fontSize:'20px', fontFamily:'cursive'}}>  For over past 2 years, I have worked for some wonderful clients to create some award winning works. And, I can make this happen for your business as well.
+
+                    Please check our my project page to see some website i have worked on.
 
                          
-                        </p>
+                        </h5>
                     </div>
                     <div className='col-sm-12 col-md-6 col-lg-6 profile-pic'>
                        
@@ -41,35 +42,27 @@ class About extends Component {
                     </div>
                 </div>
                 <div className='row' >
-                    <div className='col'>  
+                    <div className='col-sm-12 col-md-6 col-lg-6'>  
                         <img src="https://i.imgur.com/2zXVvU6.png" alt='icon'/>                      
                                             
-                        <h4 style={{ fontFamily: 'Times New Roman', fontWeight:'bold', fontSize:'30px'}}>Quality</h4>
-                        <p> The standard Lorem Ipsum passage, used since the 1500s
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        <h4 style={{ fontFamily: 'Times New Roman', fontWeight:'bold', fontSize:'30px'}}>Qualities</h4>
+                        <p style={{fontSize:'20px',  fontFamily:'cursive'}}> <b>Ability to learn:</b> being a developer requires continues and constant need to keep up-to-date
+                            with the latest technology, so i pride myself with good self-learning skills which is required for the job.</p>
+                            <p style={{fontSize:'20px',  fontFamily:'cursive'}}><b>Basic teamwork and coordination:</b> The pyramid isn’t built by one man, and modern websites certainly
+                             aren’t any small work. My good team mindset sometimes is valued even better than the technical skill as it helps with team spirit .
                         </p>
                     </div> 
-                    <div className='col'>
-                        <img src="https://i.imgur.com/HpqP9AH.png" alt='icon'/>  
-                        <h4 style={{ fontFamily: 'Times New Roman', fontWeight:'bold', fontSize:'30px'}}>Professionalism</h4>
-                        <p> The standard Lorem Ipsum passage, used since the 1500s
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                        </p>
-                    </div> 
-                    <div className='col'>
+                    
+                    <div className='ccol-sm-12 col-md-6 col-lg-6'>
                         <img style={{color:'rgb(226, 197, 29)'}} src="https://i.imgur.com/5tmRRWH.png" alt='icon'/>  
                         <h4 style={{ fontFamily: 'Times New Roman', fontWeight:'bold', fontSize:'30px'}}>Experience</h4>
-                        <p> The standard Lorem Ipsum passage, used since the 1500s
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        <p style={{fontSize:'20px',  fontFamily:'cursive'}}> Web Developer with 2 years of experience in designing and developing user interfaces, functional server side login, testing, debugging, scalable web applications.</p>
+                        <p style={{fontSize:'20px',  fontFamily:'cursive'}}>i have worked with wonderful organizaztions like Linux Jobber, StartNg etc as interns where i learnt
+                            valuable skill of teamwork
                         </p>
+                        
                     </div> 
-                    <div className='col'>
-                        <img src="https://i.imgur.com/ydG3ZSv.png" alt='icon'/>  
-                        <h4 style={{ fontFamily: 'Times New Roman', fontWeight:'bold', fontSize:'30px'}}>Honors</h4>
-                        <p> The standard Lorem Ipsum passage, used since the 1500s
-                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                        </p>
-                    </div>
+                
 
                 </div>
            
