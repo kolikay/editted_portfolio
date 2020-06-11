@@ -1,45 +1,84 @@
-import React, { Component } from "react"
-import { Cell, Grid } from "react-mdl"
+import React, { Component } from 'react';
 
 
-class About extends Component{
-    render(){
-        return(
-                <div className='About'>
-                    <Grid>
-                        <Cell col={2}></Cell>
-                        <Cell col={8} className= 'resume-right-col' shadow={20} style={{minWidth: '450', margin: 'auto'}}>
-                        <h2>About Me</h2>
-                        <hr style={{borderTop: '3px solid red', width: '100%' }}/>
-                            <p style={{fontSize:'75%'}}>
 
-                    
-                                Hi, I am kolawole, a web developer focused on crafting great web experiences, 
-                                Designing and Coding have been my passion since the days I started working with computers but I found myself into web development in 2019, 
-                                I enjoy creating beautifully designed, intuitive and functional websites. 
-                                Besides programming I love spending time with friends and family and can often be found together going out catching the latest movie, 
-                                staying in playing games on the sofa or planning a trip to someplace I've never been before, i also love watching football matches.
 
-                                i graduated from the University of Abuja where i obtained a bachelors degree in Economics, but i choose to follow my passion in writting codes
-                                so i registered for some udemy corses and learnt web development, i did my internship with Linux jobber to gain real world experiences  in writting codes.
 
-                                The most important part of this job is that it gives me the opportuinity to learn new technology often and i am doing what i love. 
 
-                                Please feel free to contact me when ever you need my service.
+class About extends Component {
 
-                                Thanks
+  render(){
 
-                                </p>
 
-                        </Cell>
-                        <Cell col={2}></Cell>
-                    </Grid>
+    return ( 
+            <div className='container-fluid'>
+                <div className='row'>
+                   
 
-                    
+                            <div className='col profile-top'>
+                <h1  style={{ margin:'0px',fontFamily: 'cursive'}}>Kolawole</h1>
+                                    <h4 style={{color:'white', marginTop:'0px',fontFamily: 'cursive'}}>Full Stack Web Developer</h4>
+                            </div>
                 </div>
-            )
-    }
-       
-    
+                <div className='row container' style={{paddingTop:'10%'}}>
+                    <div className='col'>
+                        <p style={{ color:'rgb(226, 197, 29)',fontFamily: 'cursive', fontWeight:'bold', fontSize:'20px'}}>Few Words</p>
+                        <h3 style={{fontSize:'40px', fontWeight:'bolder', fontFamily:'cursive'}}>About Me</h3>
+                        <p style={{color:'grey'}}>
+                            The standard Lorem Ipsum passage, used since the 1500s
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+                            Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+                           "Sed ut perspiciatis unde omnis iste natus error sit voluptatem The standard Lorem Ipsum passage, used since the 1500s
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+                         
+                        </p>
+                    </div>
+                    <div className='col'>
+                        <img style={{height:'600px', width:'600px', paddingLeft:'50px', paddingBottom:'80px', paddingTop:'40px'}}
+                        src="https://i.imgur.com/McUrjwj.jpg"
+                        alt='icon'
+                        />
+
+                    </div>
+                </div>
+                <div className='row' >
+                    <div className='col'>  
+                        <img src="https://i.imgur.com/2zXVvU6.png" alt='icon'/>                      
+                                            
+                        <h4 style={{ fontFamily: 'Times New Roman', fontWeight:'bold', fontSize:'30px'}}>Quality</h4>
+                        <p> The standard Lorem Ipsum passage, used since the 1500s
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </p>
+                    </div> 
+                    <div className='col'>
+                        <img src="https://i.imgur.com/HpqP9AH.png" alt='icon'/>  
+                        <h4 style={{ fontFamily: 'Times New Roman', fontWeight:'bold', fontSize:'30px'}}>Professionalism</h4>
+                        <p> The standard Lorem Ipsum passage, used since the 1500s
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </p>
+                    </div> 
+                    <div className='col'>
+                        <img style={{color:'rgb(226, 197, 29)'}} src="https://i.imgur.com/5tmRRWH.png" alt='icon'/>  
+                        <h4 style={{ fontFamily: 'Times New Roman', fontWeight:'bold', fontSize:'30px'}}>Experience</h4>
+                        <p> The standard Lorem Ipsum passage, used since the 1500s
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </p>
+                    </div> 
+                    <div className='col'>
+                        <img src="https://i.imgur.com/ydG3ZSv.png" alt='icon'/>  
+                        <h4 style={{ fontFamily: 'Times New Roman', fontWeight:'bold', fontSize:'30px'}}>Honors</h4>
+                        <p> The standard Lorem Ipsum passage, used since the 1500s
+                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                        </p>
+                    </div>
+
+                </div>
+           
+            </div> 
+    );
 }
+}
+
 export default About
