@@ -50,7 +50,7 @@
     background-color:inherit;
     border-width: 1px;
     border-style: solid;
-    color: red;
+    color: white;
     text-align: center;
     padding-top: 10px; 
     font-family: cursive;
@@ -58,8 +58,9 @@
 }
 
 .btn:hover{
-    background-color: rgb(226, 197, 29);
+    background-color:gray;
     color: white;
+    text-decoration: honeydew;
 }
 
 

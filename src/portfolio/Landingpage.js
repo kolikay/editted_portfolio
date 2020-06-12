@@ -2,6 +2,9 @@ import React, { Component } from "react"
 
 import { Link } from 'react-router-dom'
 import About from './About'
+import Projects from './Projects'
+import Resume from './Resume'
+import Contact from './Contact'
 
 
 
@@ -62,6 +65,9 @@ class LandingPage extends Component {
                             </div>
 
                         <About />
+                        <Projects />
+                        <Resume />
+                        <Contact />
                         </div>      
         );
     }
