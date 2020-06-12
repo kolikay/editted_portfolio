@@ -33,13 +33,13 @@
 
 
 /* homepage */
+/* background-size: cover; */
 
-/* .homepage{
+.homepage{
   
-    background-image: url(https://i.imgur.com/AT2QCdh.jpg);
-    background-position: center center ;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-image: url(https://i.imgur.com/AT2QCdh.jpg); */
+    background-position: center ;
+   
     height: 700px;
     padding-top: 0%;
     border: 0%;
@@ -47,7 +47,7 @@
     opacity: 90%; 
    
      
-} */
+}
 .homepage h2{
     color:rgb(226, 197, 29);
     padding-top: 20%;
