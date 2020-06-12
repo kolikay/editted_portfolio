@@ -10,7 +10,7 @@ class LandingPage extends Component {
     render() { 
         return ( 
                     <div  >
-                            <div className='row ' style={{backgroundImage:'URL(https://i.imgur.com/AT2QCdh.jpg)', height:'700px', opacity:'90%', backgroundPosition:'center', backgroundRepeat:'no-repeat', backgroundSize:'cover'}}>
+                            <div className='row ' style={{backgroundImage:'URL(https://i.imgur.com/AT2QCdh.jpg)', height:'700px', opacity:'80%', backgroundPosition:'center', backgroundRepeat:'no-repeat', backgroundSize:'cover'}}>
                                     <div className='col-12'>
                                         <h2 style={{color:'rgb(226, 197, 29)', paddingTop:'20%', fontFamily:'cursive'}}>Kolawole Fabusuyi</h2>
                                         <h4 style={{color:'white', fontFamily:'cursive'}}>Welcome to my portfolio page, really glad you are here </h4>
