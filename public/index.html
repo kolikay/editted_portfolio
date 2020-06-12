@@ -36,6 +36,13 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
 
+<!-- navbar -->
+<script>
+  $(window).scroll(function() {
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 0);
+  })
+</script>
+
 
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.

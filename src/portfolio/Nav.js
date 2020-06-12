@@ -27,3 +27,33 @@ const Nav =() =>{
 }
 
 export default Nav
+
+{/* <div
+        style={{
+          height: "800px"
+        }}
+      >
+        <h2
+          style={{
+            backgroundColor: `${this.state.navBackground}`,
+            position: "fixed",
+            top: "0px",
+            width: "100%"
+          }}
+        >
+          NaveBar {this.state.navBackground ? "red" : "blue"}!
+        </h2>
+      </div> */}
+
+//       constructor(){
+//         super()
+
+
+//     }
+// componentDidMount() {
+//     document.addEventListener("scroll", () => {
+//       const backgroundcolor = window.scrollY < 100 ? "red" : "blue";
+
+//       this.setState({ navBackground: backgroundcolor });
+//     });
+//   }
