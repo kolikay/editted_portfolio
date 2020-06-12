@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react"
-
+import HomePageDetails from './HomePageDetails'
 import { Link } from 'react-router-dom'
 
 
@@ -7,8 +7,8 @@ class LandingPage extends Component {
 
 
     render() { 
-        return ( 
-                    <Fragment className='homepage' >
+        return ( <Fragment >
+                    <div className='homepage' >
                     
                         <div className='container-fluid'>
                             <div className='row'>
@@ -19,9 +19,11 @@ class LandingPage extends Component {
                                     </div>
                                 </div>
                             </div>
-                    
+                   
+
+                    </div>
+                    <HomePageDetails />
                     </Fragment>
-                  
                 
                 
                
