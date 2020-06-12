@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 
 import { Link } from 'react-router-dom'
+import About from './About'
 
 
 
@@ -9,7 +10,7 @@ class LandingPage extends Component {
     render() { 
         return ( 
                     <div className="container-fluid" >
-                            <div className='row ' style={{backgroundImage:'URL(https://i.imgur.com/BcrB3KO.jpg)', height:'700px', opacity:'80%', backgroundPosition:'center', backgroundRepeat:'no-repeat', backgroundSize:'cover'}}>
+                            <div className='row ' style={{backgroundImage:'URL(https://i.imgur.com/iFFBKSTl.jpg)', height:'450px', backgroundPosition:'center', backgroundRepeat:'no-repeat', backgroundSize:'cover'}}>
                                     <div className='col-12'>
                                         <h2 style={{color:'white', paddingTop:'20%', fontFamily:'cursive'}}>Kolawole Fabusuyi</h2>
                                         <h4 style={{color:'white', fontFamily:'cursive'}}>Welcome to my portfolio page, really glad you are here </h4>
@@ -60,7 +61,7 @@ class LandingPage extends Component {
 
                             </div>
 
-                        
+                        <About />
                         </div>      
         );
     }
