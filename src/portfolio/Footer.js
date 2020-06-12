@@ -6,7 +6,7 @@ const Footer = () => {
 
     
         <div className='row' style={{backgroundColor:'black', 
-                                 color:'rgb(226, 197, 29)',
+                                 color:'rgb(10, 62, 71)',
                                  paddingTop:'10px',
                                  paddingLeft:'10px',
                                  }}>

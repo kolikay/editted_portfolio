@@ -16,13 +16,13 @@ class About extends Component {
                    
 
                             <div className='col profile-top'>
-                <h1  style={{ margin:'0px',fontFamily: 'cursive'}}>Kolawole</h1>
+                <h1  style={{color:'rgb(10, 62, 71)', margin:'0px',fontFamily: 'cursive'}}>Kolawole</h1>
                                     <h4 style={{color:'white', marginTop:'0px',fontFamily: 'cursive'}}>Full Stack Web Developer</h4>
                             </div>
                 </div>
                 <div className='row container' style={{paddingTop:'10%'}}>
                     <div className='ccol-sm-12 col-md-6 col-lg-6'>
-                        <p style={{ color:'rgb(226, 197, 29)',fontFamily: 'cursive', fontWeight:'bold', fontSize:'20px'}}>Few Words</p>
+                        <p style={{ color:'rgb(10, 62, 71)',fontFamily: 'cursive', fontWeight:'bold', fontSize:'20px'}}>Few Words</p>
                         <h2 style={{fontSize:'40px', fontWeight:'bolder', fontFamily:'cursive'}}>About Me</h2>
                         <h5 style={{fontSize:'20px',  fontFamily:'cursive'}} >
                         Hi! I am Fabusuyi Kolawole, a web developer focused on crafting great web experiences. Designing and Coding have been 
@@ -54,7 +54,7 @@ class About extends Component {
                     </div> 
                     
                     <div className='ccol-sm-12 col-md-6 col-lg-6'>
-                        <img style={{color:'rgb(226, 197, 29)'}} src="https://i.imgur.com/5tmRRWH.png" alt='icon'/>  
+                        <img style={{color:'rgb(10, 62, 71)'}} src="https://i.imgur.com/5tmRRWH.png" alt='icon'/>  
                         <h4 style={{ fontFamily: 'Times New Roman', fontWeight:'bold', fontSize:'30px'}}>Experience</h4>
                         <p style={{fontSize:'20px',  fontFamily:'cursive'}}> Web Developer with 2 years of experience in designing and developing user interfaces, functional server side login, testing, debugging, scalable web applications.</p>
                         <p style={{fontSize:'20px',  fontFamily:'cursive'}}>i have worked with wonderful organizaztions like Linux Jobber, StartNg etc as interns where i learnt
