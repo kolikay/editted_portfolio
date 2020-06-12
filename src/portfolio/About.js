@@ -11,59 +11,48 @@ class About extends Component {
 
 
     return ( 
-            <div className='container-fluid'>
-                {/* <div className='row'>
-                   
-
-                            <div className='col profile-top'>
-                <h1  style={{color:'rgb(10, 62, 71)', margin:'0px',fontFamily: 'oxygen'}}>Kolawole</h1>
-                                    <h4 style={{color:'white', marginTop:'0px',fontFamily: 'oxygen'}}>Full Stack Web Developer</h4>
-                            </div>
-                </div> */}
-                <div className='row container' style={{paddingTop:'10%'}}>
-                    <div className='ccol-sm-12 col-md-6 col-lg-6'>
-                        <p style={{ color:'rgb(10, 62, 71)',fontFamily: 'oxygen', fontWeight:'bold', fontSize:'20px'}}>Few Words</p>
-                        <h2 style={{fontSize:'40px', fontWeight:'bolder', fontFamily:'oxygen'}}>About Me</h2>
-                        <h5 style={{fontSize:'20px',  fontFamily:'oxygen'}} >
-                        Hi! I am Fabusuyi Kolawole, a web developer focused on crafting great web experiences. Designing and Coding have been 
-                        my passion since the days I started working with computers but I found myself into web development since 2018. I enjoy 
-                        creating beautifully designed, intuitive and functional websites. </h5>
-
-                        <h5 style={{fontSize:'20px', fontFamily:'oxygen'}}>  For over past 2 years, I have worked for some wonderful clients to create some award winning works. And, I can make this happen for your business as well.
-
-                    Please check our my project page to see some website i have worked on.
-
-                         
-                        </h5>
-                    </div>
-                    <div className='col-sm-12 col-md-6 col-lg-6 profile-pic'>
-                       
-
-                    </div>
+            <div >
+                    <h2 style={{fontFamily:'Balsamiq Sans'}} className='d-flex justify-content-center'>About Me</h2>
+                <div className='row  '>
+                        {/* profile pic */}
+                    <div className="col-sm-12 col-md-12 profile-pic"></div>
                 </div>
-                <div className='row' >
-                    <div className='col-sm-12 col-md-6 col-lg-6'>  
-                        <img src="https://i.imgur.com/2zXVvU6.png" alt='icon'/>                      
-                                            
-                        <h4 style={{ fontFamily: 'Times New Roman', fontWeight:'bold', fontSize:'30px'}}>Qualities</h4>
-                        <p style={{fontSize:'20px',  fontFamily:'oxygen'}}> <b>Ability to learn:</b> being a developer requires continues and constant need to keep up-to-date
-                            with the latest technology, so i pride myself with good self-learning skills which is required for the job.</p>
-                            <p style={{fontSize:'20px',  fontFamily:'oxygen'}}><b>Basic teamwork and coordination:</b> The pyramid isn’t built by one man, and modern websites certainly
-                             aren’t any small work. My good team mindset sometimes is valued even better than the technical skill as it helps with team spirit .
-                        </p>
-                    </div> 
-                    
-                    <div className='ccol-sm-12 col-md-6 col-lg-6'>
-                        <img style={{color:'rgb(10, 62, 71)'}} src="https://i.imgur.com/5tmRRWH.png" alt='icon'/>  
-                        <h4 style={{ fontFamily: 'Times New Roman', fontWeight:'bold', fontSize:'30px'}}>Experience</h4>
-                        <p style={{fontSize:'20px',  fontFamily:'oxygen'}}> Web Developer with 2 years of experience in designing and developing user interfaces, functional server side login, testing, debugging, scalable web applications.</p>
-                        <p style={{fontSize:'20px',  fontFamily:'oxygen'}}>i have worked with wonderful organizaztions like Linux Jobber, StartNg etc as interns where i learnt
-                            valuable skill of teamwork
-                        </p>
-                        
-                    </div> 
-                
+                <div className='row d-flex'>
+                    <div className="col-lg-3 "></div>
+                    <div style={{textAlign:'center', paddingBottom:'20px'}} className=' col-lg-6 col-sm-12'>Hi, i am kolawle fabusuyi, a web developer focused on crafting great Web experiences. 
+                                                                                                Designing and Coding has always been my passion since the days i started working with 
+                                                                                                computers but i found myself into Web Development in 2018. i focus on the
+                                                                                                underlisted qualities when writting codes :-
+                    </div>
+                    <div className="col-lg-3'"></div>
+                    </div>
 
+                <div className='row quality' >
+                    
+                    <div className = "col-sm-12 col-md-6 col-lg-3  d-flex justify-content-center">
+                        <figure>
+                        <img src="https://i.imgur.com/4k1x1nO.png" alt='icon'/> 
+                        <h4>Efficiency</h4>
+                        </figure>                    
+                    </div>
+                     <div className = "col-sm-12 col-md-6 col-lg-3  d-flex justify-content-center">
+                        <figure>
+                        <img src="https://i.imgur.com/ACcEHdS.png" alt='icon'/>  
+                        <h4 >Responsive</h4>
+                        </figure>
+                    </div> 
+                    <div className = "col-sm-12 col-md-6 col-lg-3  d-flex justify-content-center">
+                        <figure>
+                        <img src="https://i.imgur.com/YuUyQ50.png" alt='icon'/>  
+                        <h4 >Dynamism</h4>
+                        </figure>
+                    </div> 
+                    <div className = "col-sm-12 col-md-6 col-lg-3  d-flex justify-content-center">
+                    <figure>
+                        <img src="https://i.imgur.com/BlJwbk3.png" alt='icon'/>  
+                        <h4 >Scalability</h4>
+                        </figure>
+                    </div> 
                 </div>
            
             </div> 

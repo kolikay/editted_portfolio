@@ -1,9 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+
+
+
 .navbar{
     border-radius: 0%;
     position: fixed !important;
     width: 100%;
     z-index: 100;
     display: flex;
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 
@@ -11,9 +16,8 @@
 .navbar.scrolled{
    background-color: black!important;
    transition:500ms ease;
+   color: red;
 }
-
-
 
 
 .projects-grid{
@@ -32,7 +36,7 @@
     flex-direction: row;  
 }
 
-@media all and (max-width: 640px) {
+@media screen and (max-width: 640px) {
     .projects-grid{
         flex-direction: column;
         margin-bottom: 10%;
@@ -42,11 +46,11 @@
 .btn{
     width: 200px;
     height: 50px;
-    border: rgb(56, 48, 124);
+    border: rgb(197, 255, 164);
     background-color:inherit;
     border-width: 1px;
     border-style: solid;
-    color: rgb(226, 197, 29);
+    color: red;
     text-align: center;
     padding-top: 10px; 
     font-family: cursive;
@@ -56,64 +60,56 @@
 .btn:hover{
     background-color: rgb(226, 197, 29);
     color: white;
-    
-
-}
-
-.dev-pix{
-    height: 300px;
-    width: 700px;
-    background-image: url(https://imgur.com/BcrB3KO.jpg);
-    background-position: center;
-    transition: 3s;
-    transition-delay: 1s;
-    display: flex;
 }
 
 
 .profile-pic{
-    height: 500px;
-    width: 400px;
-    background-image: url(https://i.imgur.com/McUrjwj.jpg);
-    background-position: center;
-    transition: 3s;
-    transition-delay: 1s;
-    padding-left: 50px;
-    padding-bottom: 80px;
-    padding-top: 40px;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 500px;
+    background-image: url(https://i.imgur.com/uuYptZI.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin-bottom: 20px;
+}
+
+
+.quality{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}
+.quality img{
+    height: 100px;
+    width: 100px;
+    color: black;
+    padding-bottom: 0px;
+}
+
+.quality figure{
+    font-family: Balsamiq Sans;
+    font-weight: bold;
+    font-size: 20px;
    
-
 }
 
-  @media screen and (max-width: 420px) {
-    .profile-pic {
-        height: 400px;
-        width: 750px;
-        margin-bottom: 10px;
+@media all and (max-width: 640px) {
+    .quality {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
     }
+   
 }
+
+
 
 .resume{
     padding-top: 10%;
 }
-
-
-/* About Page */
-
-/* .profile-top{
-    background-image: url(https://i.imgur.com/iFFBKSTl.jpg);
-    background-position: center center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-    color: rgb(148, 132, 39);
-    text-align: center;
-    padding-top: 15%;
-    color: rgb(255, 233, 110);
-} */
-
 
 
 /* contact page*/
@@ -163,18 +159,6 @@
     padding: 2em;
     
 }
-.About{
-    
-   font-size: large;
-    padding-right: 3rem;
-    padding-left: 2rem;
-    font-family: 'Oxygen', sans-serif;
-    font-weight: bold;
-    text-align: center; 
-    
-}
-
-
 
 /* /contact page/ */
 
