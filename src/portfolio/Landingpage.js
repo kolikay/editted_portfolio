@@ -9,8 +9,8 @@ class LandingPage extends Component {
 
     render() { 
         return ( 
-                    <div>
-                            <div className='row homepage'>
+                    <div >
+                            <div className='homepage'>
                                     <div className='col-12'>
                                         <h2>Kolawole Fabusuyi</h2>
                                         <h4>Welcome to my portfolio page, really glad you are here </h4>
