@@ -1,4 +1,5 @@
 import React from "react"
+import '../App.css'
 
 import {Tab, Tabs, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton, CardText} from 'react-mdl'
 
@@ -18,7 +19,7 @@ class Project extends React.Component {
                         {{color:'#fff', height:'176px', background: 'url(https://i.imgur.com/0jQQ6SU.png) center / cover'}}>My Portfolio</CardTitle>
                         <CardText>This project is a simple portfolio website, which showcases everything about me and ways to contact me</CardText>
                         <CardActions border>
-                        < Button colored a href='https://github.com/kolikay/my_portfolio' target="_blank">GitHub</Button>
+                        < Button colored a href='https://github.com/kolikay/my_portfolio' target="_blank" a="true" >GitHub</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                         <IconButton name='share'/>
@@ -31,7 +32,7 @@ class Project extends React.Component {
                         {{color:'#fff', height:'176px', background: 'url(https://i.imgur.com/0jQQ6SU.png) center / cover'}}>Public Website</CardTitle>
                         <CardText>This website was created to help individuals or SMEs showcase thiers goods and services by just registring on the website and uploading thier goods and services</CardText>
                         <CardActions border>
-                        < Button colored a href='https://github.com/kolikay/new_porfolio.git' target="_blank">GitHub</Button>
+                        < Button colored a href='https://github.com/kolikay/new_porfolio.git' target="_blank" a="true" >GitHub</Button>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                         <IconButton name='share'/>
@@ -161,6 +162,7 @@ class Project extends React.Component {
     render() {
         return (
             <div className="category-tab">
+                <h2 style={{fontFamily:'Balsamiq Sans'}} className='d-flex justify-content-center'>Few Projects</h2>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     
                     <Tab>React</Tab>

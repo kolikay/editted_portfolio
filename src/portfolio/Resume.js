@@ -3,18 +3,22 @@ import {Grid, Cell} from 'react-mdl'
 import Education from './Education'
 import Experience from './Experience'
 import Skills from './Skills'
+import '../App.css'
+
+
 
 class Resume extends Component{
     render(){
         return(
                 <div className="resume">
+                    <h2 style={{fontFamily:'Balsamiq Sans'}} className='d-flex justify-content-center'>My Resume </h2>
                     <Grid>
                         <Cell col={4}>
                             <div style={{textAlign: 'center'}}>
                                 <img 
                                 src="https://avatars2.githubusercontent.com/u/56051616?s=460&u=3f9305f057d67f7c505cffacb8e69786da78aab5&v=4"
                                  alt='avatar'
-                                 style={{height:'200px'}}
+                                 style={{height:'350px'}}
                                 /></div>
                                 <h2 style={{paddingTop: '2em'}}>Kolawole Fabusuyi</h2>
                                 <h4 style={{color:'grey'}}>Web Developer</h4>

@@ -1,5 +1,6 @@
 import React, { Component } from "react"
 import {Grid, Cell} from'react-mdl'
+import '../App.css'
 
 class Education extends Component{
     render(){

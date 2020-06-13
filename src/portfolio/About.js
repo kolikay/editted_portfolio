@@ -1,21 +1,41 @@
 import React, { Component } from 'react';
-
-
-
-
+import '../App.css'
 
 
 class About extends Component {
+    constructor(){
+        super()
+    }
+    
+        
+
+    // componentWillMount(){
+    //     window.addEventListener('scroll', this.onWindowScroll);
+    //   }
+    // componentWillUnmount(){
+    //     window.removeEventListener('scroll', this.onWindowScroll);
+    //   }
+   
+
+    // onWindowScroll = () => {
+    //     let element = document.querySelector('.container')
+    //     if (window.scrollY > 1000){
+    //         element.classList.add('about-trans')
+    //     } else {
+    //         element.classList.remove('about-trans')
+    //     }
+        
+    // }
+ 
 
   render(){
 
-
     return ( 
-            <div >
-                    <h2 style={{fontFamily:'Balsamiq Sans'}} className='d-flex justify-content-center'>About Me</h2>
+            <div className='container'>
+                    <h2 style={{fontFamily:'Balsamiq Sans', marginTop:'100px'}} className='d-flex justify-content-center'> About Me</h2>
                 <div className='row  '>
                         {/* profile pic */}
-                    <div className="col-sm-12 col-md-12 profile-pic"></div>
+                    <div className="col-sm-12 col-md-12 profile-pic "></div>
                 </div>
                 <div className='row d-flex'>
                     <div className="col-lg-3 "></div>
@@ -61,3 +81,7 @@ class About extends Component {
 }
 
 export default About
+
+
+
+

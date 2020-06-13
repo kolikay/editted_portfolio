@@ -9,6 +9,7 @@
     z-index: 100;
     display: flex;
     font-family: 'Balsamiq Sans', cursive;
+    background-color: black !important;
 }
 
 
@@ -272,3 +273,9 @@
         background-color:#fff;
     }
 }
+
+/* ANIMATIONS */
+
+
+
+
