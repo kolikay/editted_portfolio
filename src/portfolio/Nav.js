@@ -20,8 +20,8 @@ const Nav =() =>{
                     <Link className="nav-item nav-link" to="/project"style={{fontSize:'20px', color:'white',  marginRight:'30px'}}>Project</Link>
                     <Link className="nav-item nav-link" to="/aboutme"style={{fontSize:'20px', color:'white',  marginRight:'30px'}}>About</Link>
                     <Link className="nav-item nav-link " to="/resume"style={{fontSize:'20px', color:'white',  marginRight:'30px'}}>Resume</Link>
-                    <Link className="nav-item nav-link " to="/contact"style={{fontSize:'20px', color:'white',  marginRight:'30px'}}>Contact</Link>
-                    {/* <a className="nav-item nav-link" href="#contact"style={{fontSize:'20px', color:'white',  marginRight:'30px'}}>Contact</a> */}
+                    {/* <Link className="nav-item nav-link " to="/contact"style={{fontSize:'20px', color:'white',  marginRight:'30px'}}>Contact</Link> */}
+                    <a className="nav-item nav-link" href="/contact"style={{fontSize:'20px', color:'white',  marginRight:'30px'}}>Contact</a>
                     </div>
                 </div>
                 
