@@ -31,7 +31,7 @@ class About extends Component {
   render(){
 
     return ( 
-            <div className='container'>
+            <div className='container' id='aboutme'>
                     <h2 style={{fontFamily:'Balsamiq Sans', marginTop:'100px'}} className='d-flex justify-content-center'> About Me</h2>
                 <div className='row  '>
                         {/* profile pic */}

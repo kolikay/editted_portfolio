@@ -43,8 +43,8 @@ class Contact extends Component{
                         <p>Email *</p>
                         <input id="txt_email" type="email" required="required" name="_replyto"/>
 
-                        <p>Phone </p>
-                        <input id="txt_phone" type="text"  name='phone' />
+                        {/* <p>Phone </p>
+                        <input id="txt_phone" type="text"  name='phone' /> */}
 
                         <p>Subject *</p>
                         <input id="txt_subject" type="text" required="required" name='subject'/>

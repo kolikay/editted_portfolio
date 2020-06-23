@@ -161,7 +161,7 @@ class Project extends React.Component {
     }
     render() {
         return (
-            <div className="category-tab">
+            <div className="category-tab" id='projects'>
                 <h2 style={{fontFamily:'Balsamiq Sans'}} className='d-flex justify-content-center'>Few Projects</h2>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     

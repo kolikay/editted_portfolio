@@ -12,7 +12,7 @@ class LandingPage extends Component {
   
     render() { 
         return ( 
-                    <div className="container-fluid" style={{fontFamily:'Balsamiq Sans'}} >
+                    <div className="container-fluid" style={{fontFamily:'Balsamiq Sans'}} id='#homepage'>
                             <div className='row ' style={{backgroundImage:'URL(https://i.imgur.com/iFFBKSTl.jpg)', height:'500px', backgroundPosition:'center', backgroundRepeat:'no-repeat', backgroundSize:'cover'}}>
                                     <div className='col-12'>
                                         <h2 style={{color:'white', paddingTop:'20%',fontFamily:'Balsamiq Sans' }}>Kolawole Fabusuyi</h2>

@@ -10,7 +10,7 @@ import '../App.css'
 class Resume extends Component{
     render(){
         return(
-                <div className="resume">
+                <div className="resume" id='resume'>
                     <h2 style={{fontFamily:'Balsamiq Sans'}} className='d-flex justify-content-center'>My Resume </h2>
                     <Grid>
                         <Cell col={4}>

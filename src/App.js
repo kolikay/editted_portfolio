@@ -2,7 +2,8 @@ import React from "react"
 import './App.css' 
 import Nav from './portfolio/Nav'
 import Footer from './portfolio/Footer'
-import Main from './portfolio/Main'
+import Landingpage from '../src/portfolio/Landingpage'
+
 
 
 
@@ -16,7 +17,9 @@ class App extends React.Component{
         return(
             <div >
             <Nav />
-            <Main />
+            
+            <Landingpage />
+           
            <Footer />
 
             </div>
