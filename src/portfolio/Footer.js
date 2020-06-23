@@ -19,10 +19,10 @@ const Footer = () => {
 
                     <div className='footer'>
                
-                    <span className=" fa fa-facebook-square" aria-hidden="true"></span>
-                    <span className="fa fa-twitter-square" aria-hidden="true"></span>
-                    <span className="fa fa-google" aria-hidden="true"></span>
-                    <span className="fa fa-linkedin" aria-hidden="true"></span>
+                    <a target='_blank' href='https://www.facebook.com/kolikay'><span className="footer fa fa-facebook-square" aria-hidden="true"></span></a>
+                    <a target='_blank' href='https://www.twitter.com/kolikay'><span className="footer fa fa-twitter-square" aria-hidden="true"></span></a>
+                    <a target='_blank' href='https://www.github.com/kolikay'><span className="footer fa fa-github-square" aria-hidden="true"></span></a>
+                    <a target='_blank' href='https://www.linkedin.com/in/kolikay'><span className="footer fa fa-linkedin" aria-hidden="true"></span></a>
                     </div>
 
 
@@ -33,9 +33,3 @@ const Footer = () => {
 }
  
 export default Footer;
-{/* <p className='d-flex justify-content-center col-sm-12 col-md-6 col-lg-3'>
-<i className=" fa fa-facebook-square" aria-hidden="true"></i>
-<i className="fa fa-twitter-square" aria-hidden="true"></i>
-<i className="fa fa-google" aria-hidden="true"></i>
-
-</p> */}

@@ -34,23 +34,25 @@ class Contact extends Component{
                         <h3>
                            <span id="confirm"></span>
                         </h3>
-
+                        <form action="https://formspree.io/xgenzjal"
+                        method="POST">
                         <p>Name *</p>
-                        <input id="txt_name" type="text" required="required"/>
+                        <input id="txt_name" type="text" required="required" name='name'/>
 
                         <p>Email *</p>
-                        <input id="txt_email" type="text" required="required"/>
+                        <input id="txt_email" type="email" required="required" name="_replyto"/>
 
-                        <p>Phone *</p>
-                        <input id="txt_phone" type="text" required="required" />
+                        <p>Phone </p>
+                        <input id="txt_phone" type="text" required="required" name='phone' />
 
                         <p>Subject *</p>
-                        <input id="txt_subject" type="text" required="required" />
+                        <input id="txt_subject" type="text" required="required" name='subject'/>
 
                         <p>Message *</p>
-                        <textarea id="txt_message" rows="4" cols="20" required="required" ></textarea>
+                        <textarea id="txt_message" rows="4" cols="20" required="required" name='message' ></textarea>
                         
-                        <input type="submit" id="btn_send" value="SEND"  className="btn_send"/>
+                        <input type="submit" id="btn_send" value="send"  className="btn_send" />
+                        </form>
                     </div>
                 </div>
                 </div>
