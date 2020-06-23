@@ -19,10 +19,10 @@ const Footer = () => {
 
                     <div className='footer'>
                
-                    <a target='_blank' href='https://www.facebook.com/kolikay'><span className="footer fa fa-facebook-square" aria-hidden="true"></span></a>
-                    <a target='_blank' href='https://www.twitter.com/kolikay'><span className="footer fa fa-twitter-square" aria-hidden="true"></span></a>
-                    <a target='_blank' href='https://www.github.com/kolikay'><span className="footer fa fa-github-square" aria-hidden="true"></span></a>
-                    <a target='_blank' href='https://www.linkedin.com/in/kolikay'><span className="footer fa fa-linkedin" aria-hidden="true"></span></a>
+                    <a target='_blank' rel="noopener noreferrer" href='https://www.facebook.com/kolikay'><span className="footer fa fa-facebook-square" aria-hidden="true"></span> </a>
+                    <a target='_blank' rel="noopener noreferrer" href='https://www.twitter.com/kolikay'><span className="footer fa fa-twitter-square" aria-hidden="true"></span> </a>
+                    <a target='_blank' rel="noopener noreferrer" href='https://www.github.com/kolikay'><span className="footer fa fa-github-square" aria-hidden="true"></span> </a>
+                    <a target='_blank' rel="noopener noreferrer" href='https://www.linkedin.com/in/kolikay'><span className="footer fa fa-linkedin" aria-hidden="true"></span> </a>
                     </div>
 
 

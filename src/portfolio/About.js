@@ -3,9 +3,9 @@ import '../App.css'
 
 
 class About extends Component {
-    constructor(){
-        super()
-    }
+    // constructor(){
+    //     super()
+    // }
     
         
 
