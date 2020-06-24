@@ -306,7 +306,7 @@
 }
 .trans-projects{
     transition-delay: 0s;
-    transition-duration: 2s;
+    transition-duration: 3s;
     transition-timing-function: ease-in-out;
     transform: translateX(500px);
     }
@@ -318,7 +318,7 @@
 }
 .trans-resume{
     transition-delay: 0s;
-    transition-duration: 2s;
+    transition-duration: 4s;
     transition-timing-function: ease-in-out;
     transform: translateX(500px);
     }
@@ -329,8 +329,19 @@
     }
 
 .trans-contact{
-        transition-delay: 0s;
-        transition-duration: 2s;
+        transition-delay: 0.5s;
+        transition-duration: 5s;
         transition-timing-function: ease-in-out;
         transform: translateX(500px);
         }
+
+.landing-img{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:991px){
+    .landing-img{
+        margin-left: 70px;
+    }
+
+}

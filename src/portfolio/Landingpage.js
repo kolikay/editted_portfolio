@@ -31,31 +31,33 @@ class LandingPage extends Component {
                                     fontFamily: 'Balsamiq Sans',}}
                                     > What i do</h2>
 
-                                    <h2 style={{fontFamily:'Balsamiq Sans'}}>Programming</h2>
-                                    <p style={{ fontFamily:'Balsamiq Sans'}}>Computer programming is the process of designing and building 
-                                        an executable computer program to accomplish a specific computing result. 
-                                        Programming involves tasks such as: analysis, generating algorithms, 
-                                        profiling algorithms' accuracy and resource consumption, and the 
-                                        implementation of algorithms in a chosen programming language 
-                                        (commonly referred to as coding).</p>
+                                    <h2 style={{fontFamily:'Balsamiq Sans'}}>Web Development</h2>
+                                    
                                     <p>I take a structured approach to web design. My development process is
                                         created to ensure every project is delivered on-time and on-budget.  
                                     </p>
                                 </div>
-                                <div className='col-sm-12 col-md-3 ' style={{paddingTop:'100px', paddingRight:'50px', fontFamily:'Balsamiq Sans'}}>
-                                <i className="fa fa-desktop" aria-hidden="true" style={{color:'rgb(10, 62, 71)', fontSize:'40px'}}></i>
-                                    <h4 style={{fontFamily:'Balsamiq Sans'}} > Back End Web Development</h4>
-                                    <p style={{fontFamily:'Balsamiq Sans'}}>Backend Development refers to the server-side development. 
-                                        As a Backend Developer, i work on Development Languages like Django, Databases like MySQL, cache, Server, 
-                                        API (REST & SOAP), etc. I understand the goals of the
-                                        website and come up with effective login and solutions.</p>
+                                <div className='col-sm-12 col-md-3' style={{paddingTop:'70px', paddingRight:'50px', fontFamily:'Balsamiq Sans'}}>
+                                
+                                <img src='https://imgur.com/EeOs3ap.png'
+                                className='landing-img'
+                                style={{height:'100px', width:'100px'}}
+                                alt='backend'
+                                />
+                                    <h4 style={{fontFamily:'Balsamiq Sans'}} > Back End Development</h4>
+                                    <p style={{fontFamily:'Balsamiq Sans'}}>
+                                        As a Backend Developer, i understand the goals of the
+                                        website and come up with effective logics and solutions.</p>
                                 </div>
                                 <div className='col-sm-12 col-md-3' style={{paddingTop:'100px'}}>
-                                <i className="fa fa-database"style={{color:'rgb(10, 62, 71)', fontSize:'40px'}}></i>
+                               
+                                <img className='landing-img' 
+                                src='https://imgur.com/uO0ZevS.png'
+                                style={{height:'100px', width:'100px'}}
+                                alt='frontend'
+                                />
                                     <h4 style={{fontFamily:'Balsamiq Sans'}}>Front End Development</h4>
-                                    <p style={{fontFamily:'Balsamiq Sans'}}>Front-end web development, also known as client-side development is the
-                                        practice of producing HTML, CSS and JavaScript for a website or Web Application so 
-                                        that a user can see and interact with them directly.
+                                    <p style={{fontFamily:'Balsamiq Sans'}}>
                                         As a Front-end Developer my responsibilities are implementing visual elements that users see and
                                         interact with within a web application. </p>
                                     
