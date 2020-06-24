@@ -49,7 +49,7 @@ class LandingPage extends Component {
                                         As a Backend Developer, i understand the goals of the
                                         website and come up with effective logics and solutions.</p>
                                 </div>
-                                <div className='col-sm-12 col-md-3' style={{paddingTop:'100px'}}>
+                                <div className='col-sm-12 col-md-3' style={{paddingTop:'70px'}}>
                                
                                 <img className='landing-img' 
                                 src='https://imgur.com/uO0ZevS.png'
