@@ -8,6 +8,23 @@ import '../App.css'
 
 
 class Resume extends Component{
+   
+        
+
+    componentDidMount(){
+        window.addEventListener('scroll', this.onWindowScroll);
+      }
+
+    onWindowScroll = () => {
+        let element = document.querySelector('.resume')
+        if (window.scrollY > 1500){
+            element.classList.add('trans-resume')
+        } else {
+            element.classList.remove('trans-resume')
+        }
+        
+    }
+ 
     render(){
         return(
                 <div className="resume" id='resume'>

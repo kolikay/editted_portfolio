@@ -3,35 +3,30 @@ import '../App.css'
 
 
 class About extends Component {
-    // constructor(){
-    //     super()
-    // }
-    
+   
         
 
-    // componentWillMount(){
-    //     window.addEventListener('scroll', this.onWindowScroll);
-    //   }
-    // componentWillUnmount(){
-    //     window.removeEventListener('scroll', this.onWindowScroll);
-    //   }
+    componentDidMount(){
+        window.addEventListener('scroll', this.onWindowScroll);
+      }
    
 
-    // onWindowScroll = () => {
-    //     let element = document.querySelector('.container')
-    //     if (window.scrollY > 1000){
-    //         element.classList.add('about-trans')
-    //     } else {
-    //         element.classList.remove('about-trans')
-    //     }
+    onWindowScroll = () => {
+        let element = document.querySelector('.about')
+        if (window.scrollY   > 500){
+            element.classList.add('trans-about')
+        } else {
+            element.classList.remove('trans')
+        }
         
-    // }
+    }
  
 
   render(){
 
     return ( 
-            <div className='container' id='aboutme'>
+            <div className='container about' id='aboutme'>
+               
                     <h2 style={{fontFamily:'Balsamiq Sans', marginTop:'100px'}} className='d-flex justify-content-center'> About Me</h2>
                 <div className='row  '>
                         {/* profile pic */}

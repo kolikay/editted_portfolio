@@ -3,10 +3,25 @@ import '../App.css'
 
 
 class Contact extends Component{
+
+    componentDidMount(){
+        window.addEventListener('scroll', this.onWindowScroll);
+      }
+   
+
+    onWindowScroll = () => {
+        let element = document.querySelector('.contact')
+        if (window.scrollY > 500){
+            element.classList.add('trans-contact')
+        } else {
+            element.classList.remove('trans-contact')
+        }
+        
+    }
   
     render(){
         return(
-            <div className="container" id = "contact">
+            <div className="container contact" id = "contact">
                 <h2 style={{fontFamily:'Balsamiq Sans'}} className='d-flex justify-content-center'>Contact Me</h2>
             <div className="contact-parent">
                 <div className="contact-child child1">
@@ -31,7 +46,7 @@ class Contact extends Component{
 
                 <div className="contact-child child2">
                     <div className="inside-contact">
-                        <h2>Contact Me</h2>
+                       
                         <h3>
                            <span id="confirm"></span>
                         </h3>
