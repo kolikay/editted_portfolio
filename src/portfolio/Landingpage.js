@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import '../App.css'
-import { Link } from 'react-router-dom'
 import About from './About'
 import Projects from './Projects'
 import Resume from './Resume'
@@ -17,7 +16,7 @@ class LandingPage extends Component {
                                     <div className='col-12'>
                                         <h2 style={{color:'white', paddingTop:'20%',fontFamily:'Balsamiq Sans' }}>Kolawole Fabusuyi</h2>
                                         <h4 style={{color:'white',fontFamily:'Balsamiq Sans'}}>Welcome to my portfolio page, really glad you are here </h4>
-                                        <div className='btn btn-lg btn-secondary'><Link to='/aboutme' style={{textDecoration:'none'}}> Read More > </Link></div>
+                                        <div className='btn btn-lg btn-secondary'><a href='#aboutme' style={{textDecoration:'none'}}> Read More > </a></div>
                                     </div>
                             </div>
                             
