@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import '../App.css'
 import About from './About'
 import Projects from './Projects'
-import Resume from './Resume'
+// import Resume from './Resume'
 import Contact from './Contact'
 
 
@@ -67,7 +67,7 @@ class LandingPage extends Component {
 
                         <About />
                         <Projects />
-                        <Resume />
+                        {/* <Resume /> */}
                         <Contact />
                         </div>      
         );

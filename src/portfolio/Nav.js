@@ -18,7 +18,7 @@ const Nav =() =>{
                     <a className="nav-item nav-link  active" href="/" style={{fontSize:'20px', color:'white',  marginRight:'30px'}}>Home page<span className="sr-only">(current)</span></a>
 
                     <a className="nav-item nav-link" href="#aboutme"style={{fontSize:'20px', color:'white',  marginRight:'30px'}}>About</a>
-                    <a className="nav-item nav-link " href="#resume"style={{fontSize:'20px', color:'white',  marginRight:'30px'}}>Resume</a>
+                    {/* <a className="nav-item nav-link " href="#resume"style={{fontSize:'20px', color:'white',  marginRight:'30px'}}>Resume</a> */}
                 
                     <a className="nav-item nav-link" href="#projects"style={{fontSize:'20px', color:'white',  marginRight:'30px'}}>Projects</a>
                     <a className="nav-item nav-link" href="#contact"style={{fontSize:'20px', color:'white',  marginRight:'30px'}}>Contact</a>
